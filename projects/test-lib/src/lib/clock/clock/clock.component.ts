@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClockComponent implements OnInit {
 
-  constructor() { }
+
+  now: Date;
+
+  constructor() {
+    this.now = new Date();
+  }
 
   ngOnInit(): void {
   }
