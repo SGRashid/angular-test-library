@@ -4,7 +4,8 @@
   "newProjectRoot": "projects",
   "projects": {
     "test-library": {
-      "projectType": "application",
+      "projectType": "library",
+      "prefix": "lib",
       "schematics": {
         "@schematics/angular:component": {
           "style": "less"
