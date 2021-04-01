@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ClockComponent } from './clock/clock.component';
 
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  declarations: [ClockComponent],
+  imports: [],
+  exports: [ClockComponent],
 })
 export class ClockModule { }

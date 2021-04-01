@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WelcomeModule } from 'test-lib';
+import { WelcomeModule, ClockModule } from 'test-lib';
 
 @NgModule({
   declarations: [
@@ -13,6 +13,7 @@ import { WelcomeModule } from 'test-lib';
     BrowserModule,
     AppRoutingModule,
     WelcomeModule,
+    ClockModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
