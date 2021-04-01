@@ -3,14 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-test-lib',
   template: `
-    <p>
+    <h1>
       test-lib works!
-    </p>
+    </h1>
   `,
   styles: [
   ]
 })
-export class TestLibComponent implements OnInit {
+export class WelcomeComponent implements OnInit {
 
   constructor() { }
 
