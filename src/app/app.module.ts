@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestLibModule } from 'test-lib';
+import { WelcomeModule } from 'test-lib';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { TestLibModule } from 'test-lib';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TestLibModule,
+    WelcomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

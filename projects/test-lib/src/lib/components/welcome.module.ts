@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { WelcomeComponent } from './components/welcome/welcome.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 
@@ -9,4 +9,4 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
   ],
   exports: [WelcomeComponent]
 })
-export class TestLibModule { }
+export class WelcomeModule { }
