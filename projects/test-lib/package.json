@@ -1,5 +1,8 @@
 {
   "name": "test-lib",
+  "description": "test library of Angular2+ components",
+  "author": "Sergei Gabdullin",
+  "license": "It doesn't matter",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^11.2.7",
